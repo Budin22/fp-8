@@ -12,13 +12,13 @@ console.log(Number(1 + '1')+1); //  12 ___ number
 // // Task #2
 
 const hourse = +prompt('Укажите количество часов');
-const seconds = (hourse*60);
+const seconds = (hourse*360);
 
 if (isNaN(hourse)) {
     alert('Ошибка. Необходимо ввести число.');
 }
 else {
-    alert(`${hourse} * 60 = ${seconds} секунд`);
+    alert(`${hourse} * 360 = ${seconds} секунд`);
 }
 
 
